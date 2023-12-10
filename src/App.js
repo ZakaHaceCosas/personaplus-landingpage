@@ -11,8 +11,9 @@ function App() {
       <Topbar></Topbar>
       <Hero image="/hero.png"></Hero>
       <section className="flex bg-white flex-col h-screen w-auto mx-auto items-center justify-center gap-4">
-        <h3 className="font-mono text-black">¡Pronto disponible!</h3>
-        <Btn text='Síguenos en YouTube para estar al tanto de lo que hacemos' href='https://youtube.com/@ZakaHaceCosas'>
+        <h1 className="font-sans text-black">PersonaPlus es la app de salud que te acompaña y te ayuda a darle el PLUS que necesitas a como te cuidas.</h1>
+        <h3 className="font-mono text-black">PersonaPlus aún está en desarrollo. ¡Pronto estará disponible!</h3>
+        <Btn text='Mientras tanto, ¿y si nos sigues en YouTube?' href='https://youtube.com/@ZakaHaceCosas'>
         </Btn>
       </section>
     </main>
