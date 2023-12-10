@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Topbar from './utils/Topbar.js';
 import Hero from './utils/Hero.js';
