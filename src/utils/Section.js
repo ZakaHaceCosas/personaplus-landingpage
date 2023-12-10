@@ -5,9 +5,9 @@ function Section({ h, p, i, ih, b }) {
     const renderBtn = (ih !== null && b !== null) ? <Btn text={b} href={ih} /> : null;
 
     return (
-        <section className="flex bg-white flex-row h-screen w-auto mx-auto items-start justify-center gap-4">
+        <section className="flex bg-white flex-row h-screen w-auto mx-auto items-center justify-center gap-4">
             {renderImage}
-            <div className="flex flex-col items-start justify-items-start gap-2">
+            <div className="flex flex-col items-start justify-items-start gap-2 max-w-lg">
                 {h && <h1 className="font-mono text-xl text-black">{h}</h1>}
                 {p && <h3 className="font-sans text-black">{p}</h3>}
                 {renderBtn}
