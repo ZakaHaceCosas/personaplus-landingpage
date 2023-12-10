@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "PersonaPlus",
+  "name": "Persona Plus",
+  "description": "Dale un PLUS a tu persona.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#32FF80",
   "background_color": "#ffffff"
 }
