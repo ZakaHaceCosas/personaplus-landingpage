@@ -7,12 +7,12 @@ import Section from './utils/Section.js';
 
 function App() {
   return (
-    <main className="dark w-screen overflow-x-hidden">
+    <main className="w-screen overflow-x-hidden">
       <Topbar></Topbar>
-      <Hero image="/hero.png"></Hero>
+      <Hero image="/banner.png"></Hero>
       <Section
-        h='¿Qué es PersonaPlus?'
-        p='PersonaPlus es una aplicación de salud y antivirus 2 en 1, para cuidar de tu bienestar (tanto físico como digital) y para proteger tu teléfono y mantenerlo limpio.'
+        h='Dale un PLUS a tu salud'
+        p='Con rutinas, controles, y demás funciones.'
         i='/hero.png'
         b={null}
         ih={null}
