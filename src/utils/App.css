@@ -37,12 +37,36 @@ nav {
     flex-direction: row;
     padding: 20px;
     gap: 20px;
+    align-items: center;
     position: fixed;
     z-index: 99;
-    height: 80px;
     top: 0;
     left: 0;
     right: 0;
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+#hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 20px #000;
 }
 
 .btn {
