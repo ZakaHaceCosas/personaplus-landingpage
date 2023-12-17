@@ -106,10 +106,14 @@ section div {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     border: var(--btnstrk);
     background-image: var(--ngg);
+}
+
+.btn:hover {
+    filter: brightness(135%);
 }
 
 .btnBlau {
