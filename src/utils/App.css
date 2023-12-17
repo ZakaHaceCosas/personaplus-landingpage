@@ -8,6 +8,7 @@
     transition: all 400ms cubic-bezier(1, 0, 0, 1);
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
+    color: white;
 }
 
 :root {
@@ -42,4 +43,18 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+}
+
+.btn {
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 5px;
+    border: var(--btnstrk);
+}
+
+.btnBlau {
+    background-color: var(--blaug);
 }
