@@ -1,9 +1,13 @@
-function Btn({ text, href }) {
-    return (
-        <a className="rounded-md transition-all duration-300 p-4 text-center font-sans cursor-pointer bg-green-900 text-white hover:text-black hover:bg-green-300" href={href}>
-            {text}
-        </a>
-    );
+import React from 'react';
+
+function Btn({ text, href, className }) {
+  const cls = "btn " + className;
+
+  return (
+    <a className={cls} href={href}>
+      {text}
+    </a>
+  );
 }
 
 export default Btn;
