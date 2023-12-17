@@ -57,7 +57,15 @@ section {
 }
 
 section img {
-    width: 40%;
+    height: 100%;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: start;
 }
 
 #hero {
@@ -101,8 +109,17 @@ section img {
     padding: 5px;
     text-decoration: none;
     border: var(--btnstrk);
+    background-image: var(--ngg);
 }
 
 .btnBlau {
-    background-color: var(--blaug);
+    background-image: var(--blaug);
+}
+
+.btnGran {
+    background-image: var(--grang);
+}
+
+.btnRot {
+    background-image: var(--rojog);
 }
