@@ -6,7 +6,7 @@ import Section from './Section';
 function Home() {
   return (
     <main>
-      <Hero image="/hero.png"></Hero>
+      <Hero image="/banner.png"></Hero>
       <Section
         h='Dale un PLUS a tu salud'
         p='Con rutinas, controles, y demás funciones.'
