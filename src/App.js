@@ -4,6 +4,7 @@ import Docs from './utils/Docs';
 import './utils/App.css'
 
 function App() {
+  // esto ta roto
   const [currentPage, setCurrentPage] = useState('home');
 
   const renderPage = () => {
@@ -21,10 +22,18 @@ function App() {
     <>
       <nav>
         <h1>PersonaPlus</h1>
-        <a onClick={() => setCurrentPage('home')}>
+        {/*
+        <a onClick={() => setCurrentPage('home')} >
           Inicio
         </a>
         <a onClick={() => setCurrentPage('home')}>
+          Documentación
+        </a>
+        */}
+        <a href="https://personaplus.vercel.app">
+          Inicio
+        </a>
+        <a href="https://github.com/ZakaHaceCosas/personaplus/blob/main/DOCS.md">
           Documentación
         </a>
       </nav>
