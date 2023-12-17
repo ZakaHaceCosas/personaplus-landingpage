@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    transition: all 400ms cubic-bezier(1, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bd: rgba(3, 5, 8, 1);
+    --ng1: rgba(12, 15, 20, 1);
+    --ng2: rgba(22, 25, 30, 1);
+    --ngg: linear-gradient(to bottom, rgba(32, 35, 40, 1), rgba(22, 25, 30, 1));
+    --btnstrk: 2px solid rgba(255, 255, 255, 0.2);
+    --blaug: linear-gradient(to bottom, rgba(50, 128, 255, 0.3), rgba(50, 128, 255, 0.1));
+    --grang: linear-gradient(to bottom, rgba(50, 255, 128, 0.3), rgba(50, 255, 128, 0.1));
+    --rojog: linear-gradient(to bottom, rgba(255, 50, 50, 0.3), rgba(255, 50, 50, 0.1));
+}
+
+body {
+    background-color: var(--bd);
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: start;
+    justify-content: start;
+}
+
+nav {
+    background-color: var(--ng1);
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+    position: fixed;
+    z-index: 99;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
