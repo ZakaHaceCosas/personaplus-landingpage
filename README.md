@@ -1,3 +1,3 @@
 # Persona Plus landing page
 
-Una landing page (página de inicio) muy simple hecha en Tailwind CSS y React para el proyecto Persona Plus.
+Sitio web de inicio del proyecto [PersonaPlus](https://github.com/ZakaHaceCosas/personaplus), hecha en React.
