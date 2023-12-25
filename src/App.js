@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Home from './utils/Home';
-import Docs from './utils/Docs';
+//import Docs from './utils/Docs';
 import './utils/App.css'
+import Footer from './utils/Footer';
 
 function App() {
-  // esto ta roto
+  /*
   const [currentPage, setCurrentPage] = useState('home');
 
   const renderPage = () => {
@@ -17,7 +18,7 @@ function App() {
         return <Home />;
     }
   };
-
+  */
   return (
     <>
       <nav>
@@ -38,7 +39,12 @@ function App() {
         </a>
       </nav>
 
-      {renderPage()}
+      {/*renderPage()*/}
+      
+      <Home></Home>
+
+      <Footer></Footer>
+
     </>
   );
 }
