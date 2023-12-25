@@ -129,6 +129,9 @@ section div {
     background-image: var(--grang);
 }
 
+.btnRot {
+    background-image: var(--rojog);
+}
 footer {
     display: flex;
     flex-direction: row;
@@ -136,6 +139,7 @@ footer {
     justify-content: space-between;
     border-top: 1px solid var(--ng2);
     width: 100%;
+    background-color: var(--ng1);
 }
 
 footer .fsect {
@@ -150,7 +154,9 @@ footer .fsect {
     gap: 10px;
     align-items: start;
     justify-content: start;
+    background-color: none;
 }
-.btnRot {
-    background-image: var(--rojog);
+
+footer .fsect img {
+    width: 50%;
 }
