@@ -129,6 +129,28 @@ section div {
     background-image: var(--grang);
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--ng2);
+    width: 100%;
+}
+
+footer .fsect {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: fit-content;
+    height: auto;
+    gap: 10px;
+    align-items: start;
+    justify-content: start;
+}
 .btnRot {
     background-image: var(--rojog);
 }
