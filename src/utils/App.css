@@ -139,7 +139,7 @@ footer {
     justify-content: space-between;
     border-top: 1px solid var(--ng2);
     width: 100%;
-    background-color: var(--ng1);
+    background-color: black;
 }
 
 footer .fsect {
