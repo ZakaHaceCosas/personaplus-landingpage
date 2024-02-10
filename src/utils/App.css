@@ -160,3 +160,9 @@ footer .fsect {
 footer .fsect img {
     width: 50%;
 }
+
+@media only screen and (max-width: 900px) {
+    section {
+        flex-direction: column;
+    }
+}
