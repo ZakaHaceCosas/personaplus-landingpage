@@ -81,6 +81,11 @@ section {
     background-color: var(--ng1);
 }
 
+.comingsoonsection h1 {
+    font-size: 5vh;
+    font-height: 5vh;
+}
+
 section img {
     height: 50%;
     width: 50%;
@@ -212,5 +217,9 @@ a:hover {
         flex-direction: column;
         align-items: start;
         justify-content: start;
+    }
+
+    .comingsoonsection {
+        height: 100vh;
     }
 }
