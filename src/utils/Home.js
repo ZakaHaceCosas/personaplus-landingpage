@@ -25,6 +25,16 @@ function Home() {
         clase='btnBlau'
       >
       </Section>
+      <Section
+          className='comingsoonsection'
+          h='Pronto disponible ;]'
+          p={null}
+          i={null}
+          b={null}
+          ih={null}
+          clase={null}
+        >
+        </Section>
     </main>
   );
 }
