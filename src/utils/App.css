@@ -173,6 +173,10 @@ a:hover {
     color: var(--accent);
 }
 
+.btnBlau:hover {
+    color: rgba(50, 128, 255, 1);
+}
+
 @media only screen and (max-width: 900px) {
     section {
         flex-direction: column;
