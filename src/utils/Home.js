@@ -17,10 +17,10 @@ function Home() {
       >
       </Section>
       <Section
-        h={null}
-        p='Seguro y de código abierto.'
+        h='Seguro y de código abierto'
+        p='PersonaPlus no tiene publicidad ni <i>spyware</i> de ningún tipo. Además, es de código abierto, permitiendo a cualquiera verificar su seguridad.'
         i='./privacy_hero.png'
-        b='PersonaPlus no tiene publicidad ni <i>spyware</i> de ningún tipo. Además, es de código abierto, permitiendo a cualquiera verificar su seguridad.'
+        b='Ver en GitHub'
         ih='https://github.com/ZakaHaceCosas/personaplus'
         clase='btnBlau'
       >
