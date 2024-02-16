@@ -18,9 +18,9 @@ function Home() {
       </Section>
       <Section
         h={null}
-        p='PersonaPlus aún no está disponible, está todavía siendo desarrollado.'
-        i={null}
-        b='Puedes ver el código en GitHub'
+        p='Seguro y de código abierto.'
+        i='./privacy_hero.png'
+        b='PersonaPlus no tiene publicidad ni <i>spyware</i> de ningún tipo. Además, es de código abierto, permitiendo a cualquiera verificar su seguridad.'
         ih='https://github.com/ZakaHaceCosas/personaplus'
         clase='btnBlau'
       >
