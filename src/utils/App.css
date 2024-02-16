@@ -196,5 +196,15 @@ a:hover {
 @media only screen and (max-width: 900px) {
     section {
         flex-direction: column;
+        height: auto;
+    }
+
+    section img {
+        width: 90%;
+    }
+
+    header {
+        flex-direction: column;
+        height: auto;
     }
 }
