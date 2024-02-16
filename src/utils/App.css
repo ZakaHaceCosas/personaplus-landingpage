@@ -166,6 +166,10 @@ footer .fsect img.pplogo {
     width: 40%;
 }
 
+a:hover {
+    color: var(--accent);
+}
+
 @media only screen and (max-width: 900px) {
     section {
         flex-direction: column;
