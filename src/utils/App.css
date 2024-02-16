@@ -11,6 +11,23 @@
     color: white;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #00000010;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #32ff80; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22af70; 
+}
+
 :root {
     --bd: rgba(3, 5, 8, 1);
     --ng1: rgba(12, 15, 20, 1);
