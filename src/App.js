@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <nav>
-        <h1>PersonaPlus</h1>
+        <h1 class="jeth">PersonaPlus</h1>
         <a href="https://personaplus.vercel.app">
           Inicio
         </a>
