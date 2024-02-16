@@ -173,8 +173,8 @@ a:hover {
     color: var(--accent);
 }
 
-.btnBlau:hover {
-    color: rgba(50, 128, 255, 1);
+.btn:hover {
+    color: white!important;
 }
 
 @media only screen and (max-width: 900px) {
