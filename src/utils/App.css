@@ -85,12 +85,13 @@ section div {
     background-image: var(--ngg);
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 }
 
 #hero img {
-    width: 50%;
-    height: 50%;
+    height: 70%;
+    width: auto;
     object-fit: scale-down;
 }
 
