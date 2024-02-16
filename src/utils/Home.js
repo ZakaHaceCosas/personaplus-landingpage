@@ -6,7 +6,7 @@ import Section from './Section';
 function Home() {
   return (
     <main>
-      <Hero image="/banner.png"></Hero>
+      <Hero image="/PERSONAPLUS_BRANDMOCKUP_1.png"></Hero>
       <Section
         h='Dale un PLUS a tu salud'
         p='Con rutinas, controles, y demás funciones, tienes todo lo que necesitas para crear la mejor versión de ti mismo.'
