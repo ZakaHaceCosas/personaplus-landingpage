@@ -60,13 +60,20 @@ nav {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    gap: 20px;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     z-index: 99;
     top: 0;
     left: 0;
     right: 0;
+}
+
+nav .as {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
 
 section {
