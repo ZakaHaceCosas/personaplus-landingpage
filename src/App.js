@@ -17,6 +17,9 @@ function App() {
           </a>
         </div>
       </nav>
+      <div className="disclaimer">
+        Nota: El proyecto PersonaPlus está <b>parado por un tiempo</b>, soy una sola persona y no tengo tiempo para todo. Pero no está muerto ;]
+      </div>
       <Home></Home>
       <Footer></Footer>
     </>
