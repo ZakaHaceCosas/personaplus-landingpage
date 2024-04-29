@@ -239,12 +239,9 @@ a:hover {
 }
 
 .disclaimer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: absolute;
+    top: 80px;
     text-align: center;
-    z-index: 999;
     background-color: darkorange;
     padding: 10px;
     color: black!important;
