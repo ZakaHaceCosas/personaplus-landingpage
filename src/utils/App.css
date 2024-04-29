@@ -251,5 +251,9 @@ a:hover {
     z-index: 999;
     background-color: darkorange;
     padding: 10px;
-    color: black;
+    color: black!important;
+}
+
+.disclaimer b {
+    color: black!important;
 }
