@@ -19,7 +19,7 @@ function App() {
         </div>*/}
       </nav>
       <div className="disclaimer">
-        Nota: El proyecto PersonaPlus está <b>parado por un tiempo</b>, soy una sola persona y no tengo tiempo para todo. Pero volverá muy pronto, con muchas novedades ;]
+        NOTA: El proyecto PersonaPlus está <b>parado por un tiempo</b>, soy una sola persona y no tengo tiempo para todo. Pero volverá muy pronto con novedades ;]
       </div>
       <Home></Home>
       <Footer></Footer>
