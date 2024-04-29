@@ -186,15 +186,13 @@ footer .fsect {
 }
 
 footer .fsect img.zlogo {
-    width: 50%;
-    height: 50%;
+    width: 40%;
     object-fit: scale-down;
 }
 
 footer .fsect img.pplogo {
     width: 40%;
-    height: 40%;
-    object-fit: scale-down;
+    object-fit: contain;
 }
 
 a:hover {
