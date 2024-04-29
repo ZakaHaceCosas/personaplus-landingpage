@@ -167,22 +167,20 @@ section div {
 footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    background-color: #000;
     border-top: 1px solid var(--ng2);
-    width: 100%;
-    background-color: black;
+    align-items: start;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 40px;
 }
 
 footer .fsect {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    width: calc(50% - 40px);
-    height: 250px;
-    gap: 10px;
     align-items: start;
     justify-content: start;
+    gap: 10px;
 }
 
 footer .fsect img.zlogo {
