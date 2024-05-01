@@ -36,6 +36,9 @@
     --blau: rgba(50, 128, 255, 1);
     --gran: rgba(50, 255, 128, 1);
     --rojo: rgba(255, 50, 50, 1);
+    --rotstrk: rgba(128, 25, 25, 1);
+    --granstrk: rgba(25, 128, 64);
+    --blaustrk: rgba(25, 64, 128);
 }
 
 .jeth {
@@ -153,14 +156,24 @@ button:hover, .btn:hover {
 .btnBlau {
     background-color: var(--blau);
 }
-
+.btnBlau:hover {
+    border: 2px solid var(--blaustrk);
+}
 .btnGran {
     background-color: var(--gran);
     color: black;
 }
 
+.btnGran:hover {
+    color: black;
+    border: 2px solid var(--granstrk);
+}
 .btnRot {
     background-color: var(--rojo);
+    color: black;
+}
+.btnRot:hover {
+    border: 2px solid var(--rotstrk);
     color: black;
 }
 footer {
