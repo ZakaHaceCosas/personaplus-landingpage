@@ -243,8 +243,7 @@ footer .fsect img.pplogo {
 
     #hero {
         flex-direction: column;
-        height: auto;
-        padding: 0px 200px 200px 0px;
+        height: 150vh;
     }
 
     #hero img {
