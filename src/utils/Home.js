@@ -28,7 +28,9 @@ function Home() {
           <div className="stuffrow">
             <h1>Give yourself a PLUS</h1>
           <p>Work in progress. Coming <i>soon</i>.</p>
-          <img alt="Static Badge" src="https://img.shields.io/badge/YouTube?style=for-the-badge&logo=youtube&label=Devlogs%20and%20stuff&link=https%3A%2F%2Fyoutube.com%2F%40ZakaHaceCosas"/>
+          <a href="https://youtube.com/@ZakaHaceCosas" target="_blank" rel="noopener noreferrer">
+              <img alt="Static Badge" src="https://img.shields.io/badge/YOUTUBE-red?style=for-the-badge&logo=youtube"/>
+          </a>
           </div>
     </main>
   );
