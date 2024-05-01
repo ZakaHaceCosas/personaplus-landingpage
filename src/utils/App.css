@@ -135,17 +135,18 @@ section div {
     color: var(--gran);
 }
 
-.btn {
+button {
     display: flex;
     height: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    padding: 10px;
+    padding: 12px 24px;
     text-decoration: none;
+    color: white;
 }
 
-.btn:hover {
+button:hover {
     transform: scale(1.1);
 }
 
@@ -155,10 +156,12 @@ section div {
 
 .btnGran {
     background-color: var(--gran);
+    color: black;
 }
 
 .btnRot {
     background-color: var(--rojo);
+    color: black;
 }
 footer {
     display: flex;
