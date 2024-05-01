@@ -142,6 +142,7 @@ a:hover {
     color: var(--gran);
 }
 button, .btn {
+    text-align: center;
     display: flex;
     height: 20px;
     justify-content: center;
