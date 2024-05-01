@@ -4,7 +4,7 @@ function Hero({ image }) {
     return (
         <section id="hero">
             <img src={image}></img>
-            <h1>Dale un<br></br><span>PLUS</span><br></br>a tu persona</h1>
+            <h1>GIVE YOURSELF<br></br><span>PLUS</span></h1>
         </section>
     )
 }
