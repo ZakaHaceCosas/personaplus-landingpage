@@ -161,6 +161,9 @@ button:hover, .btn:hover {
         border: 4px solid var(--blaustrk);
 
 }
+.btnBlau:hover {
+    color: white;
+}
 .btnGran {
     background-color: var(--gran);
         border: 4px solid var(--granstrk);
