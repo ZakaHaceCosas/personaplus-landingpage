@@ -8,15 +8,17 @@ function App() {
     <>
       <nav>
         <h1 className="jeth">PersonaPlus</h1>
-  {/*
         <div className="as">
-          <a href="https://personaplus.vercel.app">
+          <a href="#">
             Inicio
           </a>
-          <a href="https://github.com/ZakaHaceCosas/personaplus/blob/main/DOCS.md">
-            Documentación
+          <a href="https://github.com/ZakaHaceCosas/personaplus/" target="_blank" rel="noopener noreferrer">
+            GitHub
           </a>
-        </div>*/}
+          <a href="https://youtube.com/@ZakaHaceCosas" target="_blank" rel="noopener noreferrer">
+            YouTube
+          </a>
+        </div>
       </nav>
       <Home></Home>
       <Footer></Footer>
