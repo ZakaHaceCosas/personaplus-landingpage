@@ -29,15 +29,12 @@
 }
 
 :root {
-    --bd: rgba(3, 5, 8, 1);
-    --ng1: rgba(12, 15, 20, 1);
-    --ng2: rgba(22, 25, 30, 1);
-    --ngg: linear-gradient(to bottom, rgba(32, 35, 40, 1), rgba(22, 25, 30, 1));
-    --btnstrk: 1.5px solid rgba(255, 255, 255, 0.4);
-    --blaug: linear-gradient(to bottom, rgba(50, 128, 255, 0.5), rgba(50, 128, 255, 0.3));
-    --grang: linear-gradient(to bottom, rgba(50, 255, 128, 0.5), rgba(50, 255, 128, 0.3));
-    --rojog: linear-gradient(to bottom, rgba(255, 50, 50, 0.5), rgba(255, 50, 50, 0.3));
-    --accent: rgba(50, 255, 128, 1);
+    --bd: rgba(14, 16, 19, 1);
+    --ng1: rgba(20, 23, 28, 1);
+    --ng2: rgba(32, 35, 40, 1);
+    --blau: rgba(50, 128, 255, 1);
+    --gran: rgba(50, 255, 128, 1);
+    --rojo: rgba(255, 50, 50, 1);
 }
 
 .jeth {
@@ -134,7 +131,7 @@ section div {
 #hero h1 span {
     font-size: 14vh;
     line-height: 14vh;
-    color: var(--accent);
+    color: var(--gran);
 }
 
 .btn {
@@ -145,7 +142,6 @@ section div {
     border-radius: 10px;
     padding: 10px;
     text-decoration: none;
-    border: var(--btnstrk);
     background-image: var(--ngg);
 }
 
@@ -154,15 +150,15 @@ section div {
 }
 
 .btnBlau {
-    background-image: var(--blaug);
+    background-image: var(--blau);
 }
 
 .btnGran {
-    background-image: var(--grang);
+    background-image: var(--gran);
 }
 
 .btnRot {
-    background-image: var(--rojog);
+    background-image: var(--rojo);
 }
 footer {
     display: flex;
@@ -194,7 +190,7 @@ footer .fsect img.pplogo {
 }
 
 a:hover {
-    color: var(--accent);
+    color: var(--gran);
 }
 
 .btn:hover {
