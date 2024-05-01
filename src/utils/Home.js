@@ -29,15 +29,11 @@ function Home() {
             <h1>Give yourself a PLUS</h1>
           <p>Work in progress. Coming <i>soon</i>.</p>
           <div className="stuffactualrow">
-          <a href="https://youtube.com/@ZakaHaceCosas" target="_blank" rel="noopener noreferrer">
-              <button class="btnRot">
+          <a className="btn btnRot" href="https://youtube.com/@ZakaHaceCosas" target="_blank" rel="noopener noreferrer">
                 See our progress on YouTube
-              </button>
           </a>
-          <a href="https://github.com/ZakaHaceCosas/personaplus" target="_blank" rel="noopener noreferrer">
-              <button class="btnBlau">
+          <a className="btn btnBlau" href="https://github.com/ZakaHaceCosas/personaplus" target="_blank" rel="noopener noreferrer">
                 GitHub repository
-              </button>
           </a>
           </div>
           </div>
