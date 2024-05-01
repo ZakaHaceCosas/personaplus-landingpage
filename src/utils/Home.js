@@ -16,7 +16,6 @@ function Home() {
         clase={null}
       >
       </Section>
-      </Section>
       <Section
         h='This one is different'
         p='PersonaPlus has NO ads at all, nor data selling / tracking of any kind. It is a piece of free, open source software.'
