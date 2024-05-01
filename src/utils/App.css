@@ -196,6 +196,16 @@ a:hover {
     color: var(--gran);
 }
 
+.stuffrow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn:hover {
     color: white!important;
 }
