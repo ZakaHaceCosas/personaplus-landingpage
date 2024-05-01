@@ -180,12 +180,12 @@ footer .fsect {
 }
 
 footer .fsect img.zlogo {
-    width: 40%;
+    width: 250px;
     object-fit: scale-down;
 }
 
 footer .fsect img.pplogo {
-    width: 40%;
+    width: 300px;
     object-fit: contain;
 }
 
