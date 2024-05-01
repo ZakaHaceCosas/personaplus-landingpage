@@ -138,6 +138,9 @@ section div {
     color: var(--gran);
 }
 
+a:hover {
+    color: var(--gran);
+}
 button, .btn {
     display: flex;
     height: 20px;
@@ -155,25 +158,24 @@ button:hover, .btn:hover {
 
 .btnBlau {
     background-color: var(--blau);
-}
-.btnBlau:hover {
-    border: 2px solid var(--blaustrk);
+        border: 4px solid var(--blaustrk);
+
 }
 .btnGran {
     background-color: var(--gran);
-    color: black;
+        border: 4px solid var(--granstrk);
+color: black;
 }
 
 .btnGran:hover {
     color: black;
-    border: 2px solid var(--granstrk);
 }
 .btnRot {
     background-color: var(--rojo);
-    color: black;
+        border: 4px solid var(--rotstrk);
+color: black;
 }
 .btnRot:hover {
-    border: 2px solid var(--rotstrk);
     color: black;
 }
 footer {
@@ -213,9 +215,6 @@ footer .fsect img.pplogo {
     align-items: center;
     justify-content: center;
 }
-a:hover {
-    color: var(--gran);
-}
 
 .stuffrow {
     display: flex;
@@ -225,10 +224,6 @@ a:hover {
     height: 60vh;
     align-items: center;
     justify-content: center;
-}
-
-.btn:hover {
-    color: white!important;
 }
 
 @media only screen and (max-width: 900px) {
