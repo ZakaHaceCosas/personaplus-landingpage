@@ -28,9 +28,18 @@ function Home() {
           <div className="stuffrow">
             <h1>Give yourself a PLUS</h1>
           <p>Work in progress. Coming <i>soon</i>.</p>
+          <div className="stuffactualrow">
           <a href="https://youtube.com/@ZakaHaceCosas" target="_blank" rel="noopener noreferrer">
-              <img alt="Static Badge" src="https://img.shields.io/badge/YOUTUBE-red?style=for-the-badge&logo=youtube"/>
+              <button class="btnRot">
+                See our progress on YouTube
+              </button>
           </a>
+          <a href="https://github.com/ZakaHaceCosas/personaplus" target="_blank" rel="noopener noreferrer">
+              <button class="btnBlau">
+                GitHub repository
+              </button>
+          </a>
+          </div>
           </div>
     </main>
   );
