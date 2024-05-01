@@ -193,7 +193,13 @@ footer .fsect img.pplogo {
     width: 300px;
     object-fit: contain;
 }
-
+.stuffactualrow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
 a:hover {
     color: var(--gran);
 }
