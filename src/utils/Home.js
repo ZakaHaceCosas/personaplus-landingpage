@@ -8,33 +8,24 @@ function Home() {
     <main>
       <Hero image="/PERSONAPLUS_BRANDMOCKUP_1.png"></Hero>
       <Section
-        h='Dale un PLUS a tu salud'
-        p='Con rutinas, controles, y demás funciones, tienes todo lo que necesitas para crear la mejor versión de ti mismo.'
+        h='Give your health a PLUS'
+        p='With routines, controls, guides, and many others, you got all you need to give your health more.'
         i='/hero.png'
         b={null}
         ih={null}
         clase={null}
       >
       </Section>
+      </Section>
       <Section
-        h='Seguro y de código abierto'
-        p='PersonaPlus no tiene publicidad ni rastreos de ningún tipo. Además, es de código abierto, permitiendo a cualquiera verificar su seguridad.'
+        h='This one is different'
+        p='PersonaPlus has NO ads at all, nor data selling / tracking of any kind. It is a piece of free, open source software.'
         i='./privacy_hero.png'
-        b='Ver en GitHub'
+        b='See it on GitHub'
         ih='https://github.com/ZakaHaceCosas/personaplus'
         clase='btnBlau'
       >
       </Section>
-      <Section
-          className='comingsoonsection'
-          h='Pronto disponible ;]'
-          p={null}
-          i={null}
-          b={null}
-          ih={null}
-          clase={null}
-        >
-        </Section>
     </main>
   );
 }
