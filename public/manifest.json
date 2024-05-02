@@ -1,7 +1,7 @@
 {
   "short_name": "PersonaPlus",
-  "name": "Persona Plus",
-  "description": "Dale un PLUS a tu persona.",
+  "name": "PersonaPlus",
+  "description": "Give yourself a PLUS.",
   "icons": [
     {
       "src": "favicon.ico",
