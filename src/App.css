@@ -68,13 +68,25 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    border-bottom: 2px solid var(--ng2);
+    box-shadow: 0px 0px 20px 0px #000;
 }
 
 nav .as {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
+}
+
+nav .as a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav .as a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 section {
@@ -85,7 +97,7 @@ section {
     gap: 20px;
     padding: 20px;
     width: calc(100vw - 40px);
-    height: 90vh;
+    height: 70vh;
     background-color: var(--ng1);
 }
 
@@ -167,6 +179,7 @@ button:hover, .btn:hover {
 }
 .btnBlau:hover {
     color: white;
+    box-shadow: 0px 0px 15px 0px var(--blaustrk);
 }
 .btnGran {
     background-color: var(--gran);
@@ -176,6 +189,7 @@ color: black;
 
 .btnGran:hover {
     color: black;
+    box-shadow: 0px 0px 15px 0px var(--granstrk);
 }
 .btnRot {
     background-color: var(--rojo);
@@ -184,6 +198,7 @@ color: black;
 }
 .btnRot:hover {
     color: black;
+    box-shadow: 0px 0px 15px 0px var(--rotstrk);
 }
 footer {
     display: flex;
@@ -236,7 +251,11 @@ footer .fsect img.pplogo {
 @media only screen and (max-width: 900px) {
     section {
         flex-direction: column;
-        height: auto;
+        height: 100vh;
+    }
+    section:nth-of-type(2) {
+        flex-direction: column;
+        height: 100vh;
     }
 
     section img {
