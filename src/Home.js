@@ -28,16 +28,16 @@ function Home() {
                     <h1>Give your health a PLUS</h1>
                     <p>
                         With routines, controls, guides, and many others, you got all you need to give your health more.
-                        </p>
+                    </p>
                 </div>
             </section>
             <section>
                 <img src="./privacy_hero.png" alt="Privacy Hero"/>
                 <div>
                     <h1>This one is different</h1>
-                    <h3>
+                    <p>
                         PersonaPlus has NO ads at all, nor data selling / tracking of any kind. It is a piece of free, open source software.
-                    </h3>
+                    </p>
                     <a href="https://github.com/ZakaHaceCosas/personaplus" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
                         See it on GitHub
                     </a>
