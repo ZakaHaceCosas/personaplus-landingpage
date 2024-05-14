@@ -7,7 +7,7 @@ function Features() {
             <main>
                 <section>
                     <div>
-                        <h1>How does PersonaPlus function?</h1>
+                        <h1>What makes PersonaPlus different?</h1>
                         <p>And why should you go for IT and not for any other health app?</p>
                     </div>
                 </section>

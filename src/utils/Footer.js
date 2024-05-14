@@ -9,12 +9,12 @@ function Footer() {
             </div>
             <div className='fsect'>
                 <img src='/zakahacecosas.png' alt="Logo de ZakaHaceCosas" className="zlogo" />
-                <p>Hecho por <a href='https://github.com/ZakaHaceCosas' rel="noopener noreferrer">@ZakaHaceCosas</a>.</p>
+                <p>Made by <a href='https://github.com/ZakaHaceCosas' rel="noopener noreferrer">@ZakaHaceCosas</a>.</p>
                 <hr />
-                <p><b>Más de ZakaHaceCosas:</b></p>
+                <p><b>More from <i>ZakaHaceCosas</i>:</b></p>
                 <div className="stuffactualrow">
                     <a className="btn btnGran" href="https://youtube.com/@ZakaHaceCosas" target="_blank" rel="noopener noreferrer">
-                        Canal de YouTube
+                        YouTube channel
                     </a>
                     <a className="btn btnGran" href="https://zakaprofeweb.vercel.app/" target="_blank" rel="noopener noreferrer">
                         ZakaProfe
