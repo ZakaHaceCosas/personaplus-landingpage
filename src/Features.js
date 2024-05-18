@@ -18,9 +18,7 @@ function Features() {
                         <div className="bentocol">
                             <div className="bentoitem bireg">
                                 <h1 style={{ fontWeight: 400 }}>Do <span>sessions</span>. <b>Get active.</b></h1>
-                            </div>
-                            <div className="bentoitem bism">
-                                <h1 style={{ fontWeight: 400 }}><b>Create <span>objectives</span></b> that fit your needs</h1>
+                                <img src='https://personaplus.vercel.app/feat_sess.png' className='bentoimage' alt='Decoration' />
                             </div>
                             <div className="bentoitem bism">
                                 <h1 style={{ fontWeight: 400 }}><b>Get <span>advice</span></b>. Real advice.</h1>

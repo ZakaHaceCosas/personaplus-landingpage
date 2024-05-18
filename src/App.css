@@ -283,11 +283,11 @@ footer .fsect img.pplogo {
 }
 
 .bireg {
-    object-fit: scale-down;
+    height: 100%;
 }
 
 .bism {
-    object-fit: scale-down;
+    height: auto;
 }
 
 .bentoimage {
@@ -302,7 +302,7 @@ footer .fsect img.pplogo {
 
 .bentoitem:hover .bentoimage {
     filter: grayscale(0);
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 @media only screen and (max-width: 900px) {
     section {
