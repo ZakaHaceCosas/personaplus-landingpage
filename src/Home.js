@@ -16,7 +16,7 @@ function Home() {
                         </p>
                     </div>
                 </section>
-                <section>
+                <section id='privacy'>
                     <img src="./privacy_hero.png" alt="Privacy Hero"/>
                     <div>
                         <h1>This one is different</h1>
@@ -25,6 +25,9 @@ function Home() {
                         </p>
                         <a href="https://github.com/ZakaHaceCosas/personaplus" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
                             See it on GitHub
+                        </a>
+                        <a href="https://github.com/ZakaHaceCosas/personaplus/blob/main/PRIVACY.md" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
+                            Privacy manifest
                         </a>
                     </div>
                 </section>
