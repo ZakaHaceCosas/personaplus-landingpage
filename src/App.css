@@ -270,10 +270,16 @@ footer .fsect img.pplogo {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 50%;
 }
 
 .bibig {
-    object-fit: scale-down;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    justify-content: center;
 }
 
 .bireg {
@@ -282,6 +288,21 @@ footer .fsect img.pplogo {
 
 .bism {
     object-fit: scale-down;
+}
+
+.bentoimage {
+    width: 50%;
+    object-fit: scale-down;
+    filter: grayscale(100%);
+}
+
+.bentoitem:hover {
+    background-color: var(--bd);
+}
+
+.bentoitem:hover .bentoimage {
+    filter: grayscale(0);
+    transform: scale(1.5);
 }
 @media only screen and (max-width: 900px) {
     section {

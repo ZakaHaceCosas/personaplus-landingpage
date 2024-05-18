@@ -12,7 +12,7 @@ function Features() {
                 <div className="bentocontainer">
                     <div className="bento">
                         <div className="bentoitem bibig">
-                            <img src='https://personaplus.vercel.app/feat_objs.png' alt='Decoration' />
+                            <img src='https://personaplus.vercel.app/feat_objs.png' className='bentoimage' alt='Decoration' />
                             <h1 style={{ fontWeight: 400 }}><b>Create <span>objectives</span></b> that fit your needs</h1>
                         </div>
                         <div className="bentocol">
