@@ -98,7 +98,7 @@ section {
     padding: 20px;
     width: calc(100vw - 40px);
     height: 70vh;
-    background-color: var(--ng1);
+    background-color: var(--ng2);
 }
 
 section img {
@@ -121,6 +121,7 @@ section div {
 
 section:nth-of-type(2) {
     flex-direction: row-reverse;
+    background-color: transparent;
 }
 
 #hero {
@@ -208,9 +209,9 @@ footer {
     width: 100vw;
     gap: 40px;
     padding: 40px;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 footer .fsect {
@@ -243,9 +244,10 @@ footer .fsect img.pplogo {
     flex-direction: column;
     gap: 10px;
     width: 100vw;
-    height: 60vh;
+    height: 75vh;
     align-items: center;
     justify-content: center;
+    background-color: var(--ng1);
 }
 .bentocontainer {
     background-color: var(--ng1);
@@ -304,16 +306,28 @@ footer .fsect img.pplogo {
     filter: grayscale(0);
     transform: scale(1.25);
 }
+.btnArray {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+iframe {
+    border-radius: 20px;
+}
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: var(--gran);
+}
 @media only screen and (max-width: 900px) {
-    section {
+    section, section:nth-of-type(2) {
         flex-direction: column;
-        height: 100vh;
+        height: 200vh;
+        justify-content: center;
     }
-    section:nth-of-type(2) {
-        flex-direction: column;
-        height: 100vh;
+    #lookatit {
+        display: none;
     }
-
     section img {
         width: 70%;
     }
@@ -322,14 +336,20 @@ footer .fsect img.pplogo {
         flex-direction: column;
         height: auto;
     }
-
+    footer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .btnArray, .stuffactualrow {
+        flex-direction: column;
+    }
     #hero {
         flex-direction: column;
-        height: 150vh;
+        height: 175vh;
     }
 
     #hero img {
-        width: 70%;
+        width: 75%;
         height: auto;
     }
 }

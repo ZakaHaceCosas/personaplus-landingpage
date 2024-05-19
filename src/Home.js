@@ -7,6 +7,10 @@ function Home() {
         <>
             <main>
                 <Hero></Hero>
+                <div className="stuffrow" id='lookatit'>
+                    <h1>Take a look at it</h1>
+                    <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/p1K5YXo8CAE?controls=0" title="PersonaPlus trailer" frameborder="0" allow="autoplay; encrypted-media; gyroscope;" allowfullscreen="false" />
+                </div>
                 <section>
                     <img src="/hero.png" alt="Different elements, such as a 'Lets do it now!' button or a progress table, representing basic features from the app. Near those lays a heartbeat icon."/>
                     <div>
@@ -23,12 +27,14 @@ function Home() {
                         <p>
                             PersonaPlus has NO ads at all, nor data selling / tracking of any kind. It is a piece of free, open source software.
                         </p>
-                        <a href="https://github.com/ZakaHaceCosas/personaplus" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
-                            See it on GitHub
-                        </a>
-                        <a href="https://github.com/ZakaHaceCosas/personaplus/blob/main/PRIVACY.md" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
-                            Privacy manifest
-                        </a>
+                        <div className="btnArray">
+                            <a href="https://github.com/ZakaHaceCosas/personaplus" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
+                                See it on GitHub
+                            </a>
+                            <a href="https://github.com/ZakaHaceCosas/personaplus/blob/main/PRIVACY.md" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
+                                Privacy manifest
+                            </a>
+                        </div>
                     </div>
                 </section>
                 <div className="stuffrow">
@@ -40,6 +46,9 @@ function Home() {
                         </a>
                         <a className="btn btnBlau" href="https://github.com/ZakaHaceCosas/personaplus" target="_blank" rel="noopener noreferrer">
                             GitHub repository
+                        </a>
+                        <a className="btn btnGran" href="https://discord.gg/euVHrr46c6" target="_blank" rel="noopener noreferrer">
+                            Discord server
                         </a>
                     </div>
                 </div>
