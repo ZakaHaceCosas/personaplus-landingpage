@@ -39,7 +39,7 @@ function Home() {
                 </section>
                 <div className="stuffrow">
                     <h1>Give yourself a PLUS</h1>
-                    <p>Work in progress. Coming <i>soon</i>.</p>
+                    <p>PersonaPlus is a Work in progress, I am still developing it. You can watch our progress, contribute to our repo, or get in the Discord server to hang out.</p>
                     <div className="stuffactualrow">
                         <a className="btn btnRot" href="https://youtube.com/@ZakaHaceCosas" target="_blank" rel="noopener noreferrer">
                             See the progress on YouTube
