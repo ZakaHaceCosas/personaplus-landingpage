@@ -7,7 +7,7 @@ function Features() {
             <main>
                 <div className="stuffrow">
                     <h1>What makes PersonaPlus different?</h1>
-                    <p>And why should you go for IT and not for any other health app?</p>
+                    <p style={{ maxWidth: "40vw", textWrap: "wrap", textAlign: "center" }}>And why should you go for IT and not for any other health app?</p>
                 </div>
                 <div className="bentocontainer">
                     <div className="bento">
