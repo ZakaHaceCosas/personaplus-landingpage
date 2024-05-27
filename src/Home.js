@@ -9,7 +9,15 @@ function Home() {
                 <Hero></Hero>
                 <div className="stuffrow" id='lookatit'>
                     <h1>Take a look at it</h1>
-                    <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/p1K5YXo8CAE?controls=0" title="PersonaPlus trailer" frameborder="0" allow="autoplay; encrypted-media; gyroscope;" allowfullscreen="false" />
+                    <iframe
+                        width="800"
+                        height="450"
+                        src="https://www.youtube-nocookie.com/embed/p1K5YXo8CAE?controls=0"
+                        title="PersonaPlus trailer"
+                        frameBorder="0"
+                        allow="autoplay; encrypted-media; gyroscope;"
+                        allowFullScreen={false}
+                    />
                 </div>
                 <section>
                     <img src="/hero.png" alt="Different elements, such as a 'Lets do it now!' button or a progress table, representing basic features from the app. Near those lays a heartbeat icon."/>
