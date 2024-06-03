@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
     margin: 0;
@@ -7,26 +7,26 @@
     border: none;
     outline: none;
     transition: all 350ms ease;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
     scroll-behavior: smooth;
     color: white;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  border-radius: 0px;
-  background-color: #00000010;
+    border-radius: 0px;
+    background-color: #00000010;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #32ff80; 
+    background: #32ff80;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #22af70; 
+    background: #22af70;
 }
 
 :root {
@@ -42,9 +42,13 @@
 }
 
 .jeth {
-    font-family: 'JetBrains Mono';
+    font-family: "JetBrains Mono";
 }
-
+html,
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
 body {
     background-color: var(--bd);
     display: flex;
@@ -52,8 +56,6 @@ body {
     gap: 0px;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 100vw;
-    overflow-x: hidden;
 }
 
 nav {
@@ -95,15 +97,47 @@ section {
     align-items: center;
     justify-content: space-around;
     gap: 20px;
-    padding: 200px;
+    padding: 150px;
     width: calc(100vw - 280px);
     height: 70vh;
     background-color: var(--ng2);
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    cursor: pointer;
+    padding: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background-color: var(--ng2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown .dropdown-content {
+    display: block;
+}
+
 section img {
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    flex: 1;
     object-fit: scale-down;
 }
 
@@ -115,6 +149,7 @@ section div {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1;
     align-items: flex-start;
     justify-content: flex-start;
 }
@@ -137,28 +172,31 @@ section:nth-of-type(2) {
 }
 
 #hero img {
-    height: 50%;
+    height: 60%;
+    flex: 1;
     width: auto;
     object-fit: scale-down;
 }
 
 #hero h1 {
-    text-shadow: 0px 5px 30px 0px #000;
+    text-shadow: 0px 5px 30px #000;
     text-align: center;
-    font-size: 6vh;
-    line-height: 6vh;
+    flex: 1;
+    font-size: 7vh;
+    line-height: 7.25vh;
 }
 
 #hero h1 span {
-    font-size: 14vh;
-    line-height: 14vh;
+    font-size: 15vh;
+    line-height: 15.5vh;
     color: var(--gran);
 }
 
 a:hover {
     color: var(--gran);
 }
-button, .btn {
+button,
+.btn {
     text-align: center;
     display: flex;
     height: 20px;
@@ -170,13 +208,13 @@ button, .btn {
     color: white;
 }
 
-button:hover, .btn:hover {
+button:hover,
+.btn:hover {
     transform: scale(1.1);
 }
 .btnBlau {
     background-color: var(--blau);
-        border: 4px solid var(--blaustrk);
-
+    border: 4px solid var(--blaustrk);
 }
 .btnBlau:hover {
     color: white;
@@ -184,8 +222,8 @@ button:hover, .btn:hover {
 }
 .btnGran {
     background-color: var(--gran);
-        border: 4px solid var(--granstrk);
-color: black;
+    border: 4px solid var(--granstrk);
+    color: black;
 }
 
 .btnGran:hover {
@@ -194,8 +232,8 @@ color: black;
 }
 .btnRot {
     background-color: var(--rojo);
-        border: 4px solid var(--rotstrk);
-color: black;
+    border: 4px solid var(--rotstrk);
+    color: black;
 }
 .btnRot:hover {
     color: black;
@@ -209,6 +247,14 @@ footer {
     width: 100vw;
     gap: 40px;
     padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .brands {
+    display: flex;
+    width: 100vw;
+    gap: 40px;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
@@ -219,18 +265,14 @@ footer .fsect {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 10px;
 }
 
-footer .fsect img.zlogo {
-    width: 250px;
-    object-fit: scale-down;
-}
-
-footer .fsect img.pplogo {
-    width: 300px;
+footer .fsect img {
+    height: 60px;
+    padding-bottom: 20px;
     object-fit: contain;
 }
+
 .stuffactualrow {
     display: flex;
     flex-direction: row;
@@ -243,8 +285,10 @@ footer .fsect img.pplogo {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100vw;
-    height: 75vh;
+    min-height: 75vh;
     align-items: center;
     justify-content: center;
     background-color: var(--ng1);
@@ -262,13 +306,24 @@ hr {
     height: 1px;
     background-color: var(--gran);
 }
+#logosmall {
+    height: 50px;
+    object-fit: scale-down;
+    display: none;
+}
+
 @media only screen and (max-width: 900px) {
-    section, section:nth-of-type(2) {
+    section,
+    section:nth-of-type(2) {
         flex-direction: column;
         height: 200vh;
         justify-content: center;
         padding: 20px;
+        padding-bottom: 200px;
         width: calc(100vw - 40px);
+    }
+    section:nth-of-type(2) {
+        margin-top: 100px;
     }
     #lookatit {
         display: none;
@@ -276,25 +331,34 @@ hr {
     section img {
         width: 70%;
     }
-
+    #logobig {
+        display: none;
+    }
+    #logosmall {
+        display: block;
+    }
     header {
         flex-direction: column;
         height: auto;
     }
-    footer {
+    footer .brands {
         flex-direction: column;
         justify-content: flex-start;
     }
-    .btnArray, .stuffactualrow {
+    .btnArray,
+    .stuffactualrow {
         flex-direction: column;
     }
     #hero {
-        flex-direction: column;
+        flex-direction: column-reverse !important;
         height: 175vh;
     }
 
     #hero img {
         width: 75%;
         height: auto;
+    }
+    nav {
+        width: calc(100vw - 40px);
     }
 }

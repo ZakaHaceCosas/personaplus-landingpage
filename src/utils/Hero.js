@@ -1,14 +1,22 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Hero() {
+    const { t } = useTranslation();
+
     return (
         <section id="hero">
             <h1>
-                GIVE YOURSELF A<br></br><span>PLUS</span>
+                {t("giveyourselfa")}
+                <br></br>
+                <span>PLUS</span>
             </h1>
-            <img src="/PERSONAPLUS_BRANDMOCKUP_1.png" alt="PersonaPlus Brand Mockup, showing two iPhone devices with the app, each one a different page." />
+            <img
+                src="/mainmockup.png"
+                alt="PersonaPlus Brand Mockup, showing two iPhone devices with the app, each one a different page."
+            />
         </section>
-    )
+    );
 }
 
 export default Hero;

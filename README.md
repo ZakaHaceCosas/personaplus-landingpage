@@ -1,3 +1,7 @@
-# PersonaPlus landing page
+<!--C180,33C-->
 
-Sitio web de inicio del proyecto [PersonaPlus](https://github.com/ZakaHaceCosas/personaplus), una aplicación de salud y bienestar en React Native y Expo.
+# PersonaPlus Landing Page
+
+Sitio web del proyecto [PersonaPlus](https://github.com/ZakaHaceCosas/personaplus), una aplicación de salud y bienestar en React Native y Expo.
+
+Potenciado por Vercel.

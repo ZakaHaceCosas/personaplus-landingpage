@@ -1,62 +1,128 @@
-import React from 'react';
-import './App.css';
-import Hero from './utils/Hero';
+import React from "react";
+import "./App.css";
+import Hero from "./utils/Hero";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+    const { t } = useTranslation();
+
     return (
         <>
             <main>
                 <Hero></Hero>
-                <div className="stuffrow" id='lookatit'>
-                    <h1>Take a look at it</h1>
+                <div className="stuffrow" id="lookatit">
+                    <h1>{t("lookatit")}</h1>
                     <iframe
                         width="800"
                         height="450"
                         src="https://www.youtube-nocookie.com/embed/p1K5YXo8CAE?controls=0"
                         title="PersonaPlus trailer"
-                        frameBorder="0"
                         allow="autoplay; encrypted-media; gyroscope;"
                         allowFullScreen={false}
                     />
                 </div>
                 <section>
-                    <img src="/hero.png" alt="Different elements, such as a 'Lets do it now!' button or a progress table, representing basic features from the app. Near those lays a heartbeat icon."/>
                     <div>
-                        <h1>Give your health a PLUS</h1>
-                        <p>
-                            With routines, controls, guides, and many others, you got all you need to give your health more.
-                        </p>
+                        <h1 style={{ fontSize: "52px" }}>
+                            {t("whatis")}{" "}
+                            <span style={{ color: "#32FF80" }}>
+                                PersonaPlus
+                            </span>
+                            ?
+                        </h1>
+                        <h3 style={{ fontWeight: 400 }}>
+                            {t("whatispptextblock")}
+                        </h3>
                     </div>
+                    <img src="/mockup1.png" alt="Decorative." />
                 </section>
-                <section id='privacy'>
-                    <img src="./privacy_hero.png" alt="Privacy Hero"/>
+                <section>
                     <div>
-                        <h1>This one is different</h1>
-                        <p>
-                            PersonaPlus has NO ads at all, nor data selling / tracking of any kind. It is a piece of free, open source software.
-                        </p>
+                        <h1 style={{ fontSize: "52px" }}>{t("howtouse")}</h1>
+                        <h3 style={{ fontWeight: 400 }}>
+                            {t("howtouseblock")}
+                        </h3>
+                    </div>
+                    <img src="/mockup2.png" alt="Decorative." />
+                </section>
+                <section id="privacy">
+                    <img
+                        style={{ height: "60%" }}
+                        src={`/${t("differentimg")}.png`}
+                        alt="Decorative."
+                    />
+                    <div>
+                        <h1>{t("different")}</h1>
+                        <p>{t("differentblock")}</p>
                         <div className="btnArray">
-                            <a href="https://github.com/ZakaHaceCosas/personaplus" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
+                            <a
+                                href="https://github.com/ZakaHaceCosas/personaplus"
+                                className="btn btnBlau"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 See it on GitHub
                             </a>
-                            <a href="https://github.com/ZakaHaceCosas/personaplus/blob/main/PRIVACY.md" className="btn btnBlau" target='_blank' rel='noopener noreferrer'>
+                            <a
+                                href="/privacy"
+                                className="btn btnBlau"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 Privacy manifest
                             </a>
                         </div>
                     </div>
                 </section>
-                <div className="stuffrow">
-                    <h1>Give yourself a PLUS</h1>
-                    <p style={{ maxWidth: "50vw", textWrap: "wrap", textAlign: "center" }}>PersonaPlus is a Work in progress, I am still developing it. You can watch our progress, contribute to our repo, or get in the Discord server to hang out.</p>
+                <section>
+                    <div>
+                        <h1 style={{ fontSize: "52px" }}>
+                            {t("wheredownload")}
+                        </h1>
+                        <h3 style={{ fontWeight: 400 }}>
+                            {t("wheredownloadblock")}{" "}
+                            <a href="#socials">YouTube</a>
+                            {t("wheredownloadblockconnector")}{" "}
+                            <a href="#socials">Discord</a>
+                            {t("wheredownloadblock2")}
+                        </h3>
+                    </div>
+                </section>
+                <div className="stuffrow" id="socials">
+                    <h1>{t("gyap")}</h1>
+                    <p
+                        style={{
+                            maxWidth: "50vw",
+                            textWrap: "wrap",
+                            textAlign: "center",
+                        }}
+                    >
+                        {t("solodev")}
+                    </p>
                     <div className="stuffactualrow">
-                        <a className="btn btnRot" href="https://youtube.com/@ZakaHaceCosas" target="_blank" rel="noopener noreferrer">
-                            See the progress on YouTube
+                        <a
+                            className="btn btnRot"
+                            href="https://youtube.com/@ZakaHaceCosas"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {t("seeonyt")}
                         </a>
-                        <a className="btn btnBlau" href="https://github.com/ZakaHaceCosas/personaplus" target="_blank" rel="noopener noreferrer">
-                            GitHub repository
+                        <a
+                            className="btn btnBlau"
+                            href="https://github.com/ZakaHaceCosas/personaplus"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {t("ghrepo")}
                         </a>
-                        <a className="btn btnGran" href="https://discord.gg/euVHrr46c6" target="_blank" rel="noopener noreferrer">
-                            Discord server
+                        <a
+                            className="btn btnGran"
+                            href="https://discord.gg/euVHrr46c6"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {t("disc")}
                         </a>
                     </div>
                 </div>
