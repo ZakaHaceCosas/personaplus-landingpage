@@ -8,10 +8,10 @@
     "different": "Esta app es diferente",
     "differentblock": "PersonaPlus es una app LIBRE. Libre de anuncios, de planes 'premium', de pagos, de publicidad, de rastreadores... Y es software libre (de código abierto).",
     "differentimg": "mockup3_es",
-    "wheredownload": "¿Dónde la descargo?",
-    "wheredownloadblock": "PersonaPlus es una app independiente con un único desarrollador (yo, Zaka). Aún no está acabada, por lo que no la puedes descargar. Puedes seguirme en ",
-    "wheredownloadblock2": " para estar al tanto del progreso que hago.",
-    "wheredownloadblockconnector": " o",
+    "mockups": "Disclaimer: These images are designs / mockups of how the final version could look. Current downloadable version is a testing demo: it could look different from the images shown here.",
+    "downloadbtn": "¡Descarga PersonaPlus!",
+    "downloadnow": "La primera versión de prueba ya está disponible. ¡Descargala ahora!",
+    "downloadisclaimer": "PersonaPlus es una app independiente con un único desarrollador (yo, Zaka). Aún no está acabada, por lo que no te sorprendas si a la app le faltan funciones, no se ve igual que en las fotos de esta web, o presenta errores.",
     "lang": "Idioma",
     "home": "Inicio",
     "privacy": "Privacidad",
@@ -21,5 +21,7 @@
     "ghrepo": "Repositorio de GitHub",
     "disc": "Servidor de Discord",
     "opensource": "Este sitio web es de código abierto en GitHub, en el repositorio ",
-    "madeby": "Hecho por"
+    "madeby": "Hecho por",
+    "wevelauncherfirstdemo": "¡Por fin! Hemos lanzado la primera versión de pruebas descargable. ¡Échale un vistazo",
+    "here": "aquí"
 }
