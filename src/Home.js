@@ -15,7 +15,7 @@ function Home() {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://github.com/ZakaHaceCosas/personaplus/releases/tag/0.0.1-R5-b20"
+                            href="https://github.com/ZakaHaceCosas/personaplus/releases/latest"
                         >
                             {t("here")}
                         </a>
@@ -116,7 +116,7 @@ function Home() {
                     <div className="stuffactualrow">
                         <a
                             className="btn btnGran"
-                            href="https://github.com/ZakaHaceCosas/personaplus/releases/tag/0.0.1-R5-b20"
+                            href="https://github.com/ZakaHaceCosas/personaplus/releases/latest"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
