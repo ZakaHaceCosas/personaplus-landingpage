@@ -1,8 +1,8 @@
 import * as React from "react";
-import "./App.css";
-import Home from "./Home";
-import Nav from "./utils/Nav";
-import Footer from "./utils/Footer";
+import "./css/App.css";
+import Home from "./pages/Home";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import { useTranslation } from "react-i18next";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
