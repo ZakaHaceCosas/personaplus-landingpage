@@ -23,7 +23,7 @@ function Home() {
             </div>
             <Hero />
             <section>
-                <div>
+                <div className="textDiv">
                     <h1 style={{ fontSize: "52px" }}>
                         {t("whatis")}{" "}
                         <span style={{ color: "#32FF80" }}>PersonaPlus</span>?
@@ -37,7 +37,7 @@ function Home() {
                 </div>
             </section>
             <section>
-                <div>
+                <div className="textDiv">
                     <h1 style={{ fontSize: "52px" }}>{t("howtouse")}</h1>
                     <h3 style={{ fontWeight: 400 }}>{t("howtouseblock")}</h3>
                 </div>
@@ -64,7 +64,7 @@ function Home() {
                         alt="Decorative."
                     />
                 </div>
-                <div>
+                <div className="textDiv">
                     <h1>{t("different")}</h1>
                     <p>{t("differentblock")}</p>
                     <div className="btnArray">

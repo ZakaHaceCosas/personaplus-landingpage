@@ -5,7 +5,7 @@ function Hero() {
     const { t } = useTranslation();
 
     return (
-        <section id="hero">
+        <div id="hero">
             <h1>
                 {t("giveyourselfa")}
                 <br></br>
@@ -15,7 +15,7 @@ function Hero() {
                 src="/mainmockup.png"
                 alt="PersonaPlus Brand Mockup, showing two iPhone devices with the app, each one a different page."
             />
-        </section>
+        </div>
     );
 }
 
