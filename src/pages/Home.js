@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "../css/App.css";
 import Hero from "./utils/Hero";
 import { useTranslation } from "react-i18next";
 
