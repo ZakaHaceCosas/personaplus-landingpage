@@ -3,68 +3,30 @@ import "./App.css";
 import Home from "./Home";
 import Nav from "./utils/Nav";
 import Footer from "./utils/Footer";
-import Privacy from "./Privacy";
 import { useTranslation } from "react-i18next";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
     const { t } = useTranslation();
 
-    const getInitialPage = () => {
-        const path = window.location.pathname.substring(1);
-        return path || "home";
-    };
-
-    const getPageFromUrl = () => {
-        const path = window.location.pathname.substring(1);
-        return path || "home";
-    };
-
-    const [currentPage, setCurrentPage] = React.useState(getInitialPage());
-
-    React.useEffect(() => {
-        const handlePopState = () => {
-            setCurrentPage(getPageFromUrl());
-        };
-
-        window.addEventListener("popstate", handlePopState);
-
-        return () => {
-            window.removeEventListener("popstate", handlePopState);
-        };
-    }, []);
-
-    React.useEffect(() => {
-        if (currentPage) {
-            window.history.pushState(null, "", `/${currentPage}`);
-        }
-    }, [currentPage]);
-
-    const changePage = (page) => {
-        setCurrentPage(page);
-    };
-
     return (
-        <>
+        <Router>
             <Nav>
-                <>
-                    {
-                        // eslint-disable-next-line
-                    }
-                    <a href="/home" onClick={() => changePage("home")}>
-                        {t("home")}
-                    </a>
-                    {
-                        // eslint-disable-next-line
-                    }
-                    <a href="/privacy" onClick={() => changePage("privacy")}>
-                        {t("privacy")}
-                    </a>
-                </>
+                <Link to="/home">{t("home")}</Link>
+                <Link
+                    to="https://github.com/ZakaHaceCosas/personaplus/blob/main/PRIVACY.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {t("privacy")}
+                </Link>
             </Nav>
-            {currentPage === "home" && <Home />}
-            {currentPage === "privacy" && <Privacy />}
-            <Footer></Footer>
-        </>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+            </Routes>
+            <Footer />
+        </Router>
     );
 }
 
