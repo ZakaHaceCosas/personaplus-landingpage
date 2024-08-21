@@ -12,8 +12,8 @@ function Hero() {
                 <span>PLUS</span>
             </h1>
             <img
-                src="/mainmockup.png"
-                alt="PersonaPlus Brand Mockup, showing two iPhone devices with the app, each one a different page."
+                src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/mockup_main.png"
+                alt="PersonaPlus Brand Mockup, showing one Android device with PersonaPlus' main page open."
             />
         </div>
     );
