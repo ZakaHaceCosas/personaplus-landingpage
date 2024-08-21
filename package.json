@@ -35,7 +35,6 @@
     },
     "browserslist": {
         "production": [
-            "last 2 versions",
             "not dead",
             ">5%",
             "not ie <= 11",
