@@ -185,7 +185,7 @@ section:nth-of-type(4) {
 
 #hero img {
     width: 50%;
-    height: auto;
+    height: 80%;
     object-fit: scale-down;
 }
 
