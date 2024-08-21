@@ -6,6 +6,7 @@ import Footer from "./utils/Footer";
 import { useTranslation } from "react-i18next";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
     const { t } = useTranslation();
@@ -28,6 +29,7 @@ function App() {
             </Routes>
             <Footer />
             <Analytics />
+            <SpeedInsights />
         </Router>
     );
 }
