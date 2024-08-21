@@ -17,11 +17,11 @@ function Nav({ children }) {
 
     return (
         <nav>
-            <h1 className="jeth" id="logobig">
+            <h1 className="brandFont" id="logobig">
                 PersonaPlus
             </h1>
             <img src="/logo256.png" id="logosmall" alt="PersonaPlus logo" />
-            <div className="as">
+            <div className="navLinks">
                 {children}
                 <div className="dropdown">
                     <button

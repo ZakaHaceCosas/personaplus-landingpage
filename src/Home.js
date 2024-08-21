@@ -87,7 +87,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <div className="stuffrow" id="socials">
+            <div className="rowWithStuff" id="socials">
                 <h1>{t("gyap")}</h1>
                 <p
                     style={{
