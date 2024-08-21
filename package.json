@@ -17,7 +17,6 @@
     },
     "devDependencies": {
         "@babel/plugin-proposal-private-property-in-object": "~7.21.11",
-        "axios": "^1.7.2",
         "i18next": "^23.11.5",
         "i18next-browser-languagedetector": "^8.0.0",
         "i18next-http-backend": "^2.5.2",
