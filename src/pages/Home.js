@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/App.css";
-import Hero from "./utils/Hero";
+import Hero from "../components/Hero";
 import { useTranslation } from "react-i18next";
 
 function Home() {
