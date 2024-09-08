@@ -9,7 +9,7 @@ Powered by Vercel.
 - [ ] Add remaining images and content.
 - [ ] Optimise images with `.webp` format.
 - [ ] Optimise CSS as much as possible.
-- [ ] Fix responsive design (it works, but poorly).
+- [X] Fix responsive design (it works, but poorly).
 - [ ] Perhaps replace some text buttons with icons?
 
 ### Credits

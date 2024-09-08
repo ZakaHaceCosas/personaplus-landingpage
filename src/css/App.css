@@ -387,8 +387,15 @@ footer .social-icons img {
         flex-direction: column;
         height: auto;
     }
+    footer {
+        align-items: flex-start;
+    }
     footer .brands {
         flex-direction: column;
+        justify-content: flex-start;
+    }
+    .social-icons {
+        align-items: flex-start;
         justify-content: flex-start;
     }
     .stuffactualrow {
@@ -396,7 +403,16 @@ footer .social-icons img {
     }
     #hero {
         flex-direction: column-reverse !important;
-        height: 175vh;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #hero h1 {
+        font-size: 4vh;
+    }
+    #hero h1 span {
+        font-size: 8vh;
+        line-height: 4vh;
     }
     #hero img {
         width: 75%;
