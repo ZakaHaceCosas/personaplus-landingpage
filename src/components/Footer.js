@@ -40,7 +40,7 @@ function Footer() {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/icons8-youtube.svg"
+                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/svg/icons8-youtube.svg"
                         alt="YouTube button"
                     />
                 </a>
@@ -50,7 +50,7 @@ function Footer() {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/icons8-discord.svg"
+                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/svg/icons8-discord.svg"
                         alt="Discord button"
                     />
                 </a>
@@ -60,7 +60,7 @@ function Footer() {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/icons8-github.svg"
+                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/svg/icons8-github.svg"
                         alt="GitHub button"
                     />
                 </a>
