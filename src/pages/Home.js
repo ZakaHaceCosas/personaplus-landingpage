@@ -8,35 +8,19 @@ function Home() {
 
     return (
         <main>
-            <div className="news">
-                <p>
-                    {t("wevelauncherfirstdemo")}{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://github.com/ZakaHaceCosas/personaplus/releases/latest"
-                    >
-                        {t("here")}
-                    </a>
-                    !
-                </p>
-            </div>
             <Hero />
             <section>
                 <div className="textDiv">
-                    <h1 style={{ fontSize: "52px" }}>
-                        {t("whatis")}{" "}
-                        <span style={{ color: "#32FF80" }}>PersonaPlus</span>?
-                    </h1>
+                    <h1 style={{ fontSize: "52px" }}>{t("appInfo.whatIs")}</h1>
                     <h2 style={{ fontWeight: 400 }}>
-                        {t("whatispptextblock")}
+                        {t("appInfo.whatIsDescription")}
                     </h2>
                 </div>
-                <div className="imagediv">
+                {/* <div className="imagediv">
                     <img src="/mockup1.png" alt="Decorative." />
-                </div>
+                </div> */}
             </section>
-            <section>
+            {/* THESE REMAIN HIDDEN UNTIL WE ACTUALLY GOT SOMETHING TO SHOW <section>
                 <div className="textDiv">
                     <h1 style={{ fontSize: "52px" }}>{t("howtouse")}</h1>
                     <h3 style={{ fontWeight: 400 }}>{t("howtouseblock")}</h3>
@@ -73,12 +57,12 @@ function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        See it on GitHub
+                        {t("community.githubRepo")}
                     </a>
                 </div>
-            </section>
+            </section> */}
             <div className="rowWithStuff" id="socials">
-                <h1>{t("gyap")}</h1>
+                <h1>{t("giveYourselfAPlus")}</h1>
                 <p
                     style={{
                         maxWidth: "50vw",
@@ -86,7 +70,7 @@ function Home() {
                         textAlign: "center",
                     }}
                 >
-                    {t("downloadnow")}
+                    {t("downloads.downloadNow")}
                 </p>
                 <div className="stuffactualrow">
                     <a
@@ -95,7 +79,7 @@ function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        {t("downloadbtn")}
+                        {t("downloads.downloadButton")}
                     </a>
                 </div>
                 <p
@@ -107,7 +91,7 @@ function Home() {
                         opacity: 0.5,
                     }}
                 >
-                    {t("downloaddisclaimer")}
+                    {t("downloads.downloadDisclaimer")}
                 </p>
             </div>
         </main>
