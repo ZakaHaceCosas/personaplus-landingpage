@@ -8,9 +8,9 @@ i18n.use(HttpApi)
     .use(initReactI18next)
     .init({
         fallbackLng: "en",
-        debug: true,
+        debug: false,
         backend: {
-            loadPath: "/locales/{{lng}}/translation.json",
+            loadPath: "/locales/{{lng}}.json",
         },
         detection: {
             order: ["queryString", "cookie"],
