@@ -10,7 +10,7 @@
 
 a,
 button {
-    transition: transform 350ms ease, box-shadow 350ms ease; /* removing "all" makes some stuff not animated, but helps with accessibility */
+    transition: transform 350ms ease, box-shadow 350ms ease;
 }
 
 .navLinks a {
