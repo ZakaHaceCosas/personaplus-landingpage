@@ -7,8 +7,8 @@ function Hero() {
     return (
         <div id="hero">
             <h1>
-                {t("giveyourselfa")}
-                <br></br>
+                {t("giveYourselfA")}
+                <br />
                 <span>PLUS</span>
             </h1>
             <picture>

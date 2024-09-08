@@ -14,13 +14,13 @@ function App() {
     return (
         <Router>
             <Nav>
-                <Link to="/home">{t("home")}</Link>
+                <Link to="/home">{t("navigation.home")}</Link>
                 <Link
                     to="https://github.com/ZakaHaceCosas/personaplus/blob/main/PRIVACY.md"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    {t("privacy")}
+                    {t("navigation.privacy")}
                 </Link>
             </Nav>
             <Routes>

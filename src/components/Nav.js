@@ -28,7 +28,7 @@ function Nav({ children }) {
                         className="button btnBlau dropbtn"
                         onClick={toggleDropdown}
                     >
-                        {t("lang")}
+                        {t("navigation.language")}
                     </button>
                     {dropdownOpen && (
                         <div className="dropdown-content">
