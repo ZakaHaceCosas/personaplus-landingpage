@@ -67,16 +67,14 @@ function Home() {
                 <div className="textDiv">
                     <h1>{t("different")}</h1>
                     <p>{t("differentblock")}</p>
-                    <div className="btnArray">
-                        <a
-                            href="https://github.com/ZakaHaceCosas/personaplus"
-                            className="btn btnBlau"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            See it on GitHub
-                        </a>
-                    </div>
+                    <a
+                        href="https://github.com/ZakaHaceCosas/personaplus"
+                        className="btn btnBlau"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        See it on GitHub
+                    </a>
                 </div>
             </section>
             <div className="rowWithStuff" id="socials">

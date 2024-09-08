@@ -34,6 +34,8 @@
     --WORstroke: rgba(128, 25, 25, 1);
     --GODstroke: rgba(25, 128, 64, 1);
     --ACEstroke: rgba(25, 64, 128, 1);
+    --BorderRadius: 10px;
+    --Shadow: 0px 0px 15px 0px;
 }
 
 /* button and link styles and transitions */
@@ -48,17 +50,10 @@ button,
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: var(--BorderRadius);
     max-height: 20px;
     color: white;
-}
-button,
-.btn {
     padding: 12px 24px;
-}
-button:hover,
-.btn:hover {
-    transform: scale(1.1);
 }
 button:hover,
 .btn:hover {
@@ -70,7 +65,7 @@ button:hover,
 .navLinks a {
     text-decoration: none;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: var(--BorderRadius);
     transition: color 350ms ease, background-color 350ms ease;
 }
 .navLinks a:hover {
@@ -90,7 +85,6 @@ body {
     background-color: var(--Background);
     display: flex;
     flex-direction: column;
-    gap: 0px;
     align-items: flex-start;
     justify-content: flex-start;
 }
@@ -114,23 +108,20 @@ nav {
 
 nav .navLinks {
     display: flex;
-    flex-direction: row;
     gap: 5px;
     align-items: center;
 }
 
 /* sections */
-
 section {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100vw;
     height: 100vh;
     background-color: var(--Dark);
+    flex-direction: row;
 }
-
 section:nth-of-type(2),
 section:nth-of-type(4) {
     flex-direction: row-reverse;
@@ -171,12 +162,12 @@ section h1 {
     display: none;
     position: absolute;
     top: 50px;
-    right: 0px;
+    right: 0;
     background-color: var(--Dark);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    border-radius: 10px;
+    border-radius: var(--BorderRadius);
 }
 
 .dropdown-content a {
@@ -185,9 +176,6 @@ section h1 {
     display: block;
 }
 
-.dropdown .dropdown-content {
-    display: block;
-}
 #hero {
     width: 100vw;
     height: 100vh;
@@ -197,7 +185,6 @@ section h1 {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 0px;
 }
 
 #hero picture {
@@ -232,32 +219,43 @@ picture {
     line-height: 15.5vh;
     color: var(--GOD);
 }
+
+.btnBlau,
+.btnGran,
+.btnRot {
+    border: 4px solid;
+    border-radius: var(--BorderRadius);
+}
+
 .btnBlau {
     background-color: var(--ACE);
-    border: 4px solid var(--ACEstroke);
+    border-color: var(--ACEstroke);
 }
 .btnBlau:hover {
     color: white;
-    box-shadow: 0px 0px 15px 0px var(--ACEstroke);
+    box-shadow: var(--Shadow) var(--ACEstroke);
 }
+
 .btnGran {
     background-color: var(--GOD);
-    border: 4px solid var(--GODstroke);
+    border-color: var(--GODstroke);
     color: black;
 }
 .btnGran:hover {
     color: black;
-    box-shadow: 0px 0px 15px 0px var(--GODstroke);
+    box-shadow: var(--Shadow) var(--GODstroke);
 }
+
 .btnRot {
     background-color: var(--WOR);
-    border: 4px solid var(--WORstroke);
+    border-color: var(--WORstroke);
     color: black;
 }
 .btnRot:hover {
     color: black;
-    box-shadow: 0px 0px 15px 0px var(--WORstroke);
+    box-shadow: var(--Shadow) var(--WORstroke);
 }
+
 footer {
     display: flex;
     background-color: #000;
@@ -270,6 +268,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 footer .brands {
     display: flex;
     width: 100vw;
@@ -294,8 +293,11 @@ footer .fsect img {
 
 .stuffactualrow {
     display: flex;
-    flex-direction: row;
     gap: 20px;
+}
+
+.stuffactualrow {
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -304,47 +306,44 @@ footer .fsect img {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     width: 100vw;
     min-height: 75vh;
     align-items: center;
     justify-content: center;
     background-color: transparent;
 }
-.btnArray {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
+
 iframe {
     border-radius: 20px;
 }
+
 hr {
     width: 100%;
     height: 1px;
     background-color: var(--GOD);
 }
+
 #logosmall {
     height: 50px;
     object-fit: scale-down;
     display: none;
 }
+
 .news {
     margin-top: 100px;
     width: 100vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
     background-color: var(--GOD);
     text-align: center;
 }
+
 .news p,
 .news a {
     color: black;
 }
 
 /* footer */
-
 footer .social-icons {
     display: flex;
     flex-direction: row;
@@ -365,7 +364,6 @@ footer .social-icons img {
     section:nth-of-type(4) {
         flex-direction: column;
         height: 200vh;
-        justify-content: center;
         padding: 20px;
         padding-bottom: 200px;
         width: calc(100vw - 40px);
@@ -393,7 +391,6 @@ footer .social-icons img {
         flex-direction: column;
         justify-content: flex-start;
     }
-    .btnArray,
     .stuffactualrow {
         flex-direction: column;
     }
@@ -401,7 +398,6 @@ footer .social-icons img {
         flex-direction: column-reverse !important;
         height: 175vh;
     }
-
     #hero img {
         width: 75%;
         height: auto;
