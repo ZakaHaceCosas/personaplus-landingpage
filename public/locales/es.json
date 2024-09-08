@@ -1,27 +1,34 @@
 {
-    "lookatit": "Échale un vistazo",
-    "giveyourselfa": "DATE UN",
-    "whatis": "¿Qué es",
-    "whatispptextblock": "PersonaPlus es la app que TE DA UN PLUS, o lo que es decir: te ayuda a cuidar de tu salud, con rutinas, guias, metas, recordatorios, y todo lo que necesitas para crear tu mejor yo.",
-    "howtouse": "¿Cómo funciona?",
-    "howtouseblock": "Fácil. Crea un objetivo. Recibirás recordatorios, consejos, e incluso un asistente completo para realizar sesiones en vivo con indicaciones detalladas cuando se trate de actividades concretas. Anota tu progreso y recibe estadísticas y mejores consejos.",
-    "different": "Esta app es diferente",
-    "differentblock": "PersonaPlus es una app LIBRE. Libre de anuncios, de planes 'premium', de pagos, de publicidad, de rastreadores... Y es software libre (de código abierto).",
-    "differentimg": "mockup3_es",
-    "mockups": "Disclaimer: These images are designs / mockups of how the final version could look. Current downloadable version is a testing demo: it could look different from the images shown here.",
-    "downloadbtn": "¡Descarga PersonaPlus!",
-    "downloadnow": "La primera versión de prueba ya está disponible. ¡Descargala ahora!",
-    "downloadisclaimer": "PersonaPlus es una app independiente con un único desarrollador (yo, Zaka). Aún no está acabada, por lo que no te sorprendas si a la app le faltan funciones, no se ve igual que en las fotos de esta web, o presenta errores.",
-    "lang": "Idioma",
-    "home": "Inicio",
-    "privacy": "Privacidad",
-    "gyap": "Date un PLUS",
-    "solodev": "PersonaPlus es un trabajo en progreso, aún estoy desarrollandola. Puedes ver mi progreso, contribuir al repo, o unirte al servidor de Discord para pasar el rato mientras tanto",
-    "seeonyt": "Ver el progreso en YouTube",
-    "ghrepo": "Repositorio de GitHub",
-    "disc": "Servidor de Discord",
-    "opensource": "Este sitio web es de código abierto en GitHub, en el repositorio ",
-    "madeby": "Hecho por",
-    "wevelauncherfirstdemo": "¡Por fin! Hemos lanzado la primera versión de pruebas descargable. ¡Échale un vistazo",
-    "here": "aquí"
+    "giveYourselfAPlus": "¡Date un plus!",
+    "giveYourselfA": "DATE UN",
+    "appInfo": {
+        "whatIs": "¿Qué es PersonaPlus?",
+        "whatIsDescription": "PersonaPlus es la app para darte un plus, o lo que es decir: te ayuda a cuidar de tu salud, con rutinas, guías, metas, recordatorios, y todo lo que necesitas para crear tu mejor yo.",
+        "howToUse": "¿Cómo funciona?",
+        "howToUseDescription": "Fácil. Crea un objetivo. Recibirás recordatorios, consejos, e incluso un asistente completo para realizar sesiones en vivo con indicaciones detalladas cuando se trate de actividades concretas. Anota tu progreso y recibe estadísticas y mejores consejos.",
+        "different": "Esta app es diferente",
+        "differentDescription": "PersonaPlus es una app LIBRE. Libre de anuncios, de planes 'premium', de pagos, de publicidad, de rastreadores... Y es software libre (de código abierto).",
+        "differentImage": "mockup3_es",
+        "mockupsDisclaimer": "Aviso: Estas imágenes son diseños/mockups de cómo podría verse la versión final. La versión descargable actual es una demo de prueba: podría verse diferente a las imágenes mostradas aquí."
+    },
+    "downloads": {
+        "downloadButton": "¡Descarga PersonaPlus!",
+        "downloadNow": "La primera versión de prueba ya está disponible. ¡Descárgala ahora!",
+        "downloadDisclaimer": "PersonaPlus es una app independiente con un único desarrollador (yo, Zaka). Aún no está acabada, por lo que no te sorprendas si a la app le faltan funciones, no se ve igual que en las fotos de esta web, o presenta errores."
+    },
+    "navigation": {
+        "language": "Idioma",
+        "home": "Inicio",
+        "privacy": "Privacidad"
+    },
+    "community": {
+        "seeOnYouTube": "Ver el progreso en YouTube",
+        "githubRepo": "Repositorio de GitHub",
+        "discordServer": "Servidor de Discord",
+        "soloDev": "PersonaPlus es un trabajo en progreso, aún estoy desarrollándola. Puedes ver mi progreso, contribuir al repo, o unirte al servidor de Discord para pasar el rato mientras tanto."
+    },
+    "siteInfo": {
+        "openSource": "Este sitio web es de código abierto en GitHub, en el repositorio",
+        "madeBy": "Hecho por"
+    }
 }
