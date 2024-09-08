@@ -76,14 +76,6 @@ function Home() {
                         >
                             See it on GitHub
                         </a>
-                        <a
-                            href="/privacy"
-                            className="btn btnBlau"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Privacy manifest
-                        </a>
                     </div>
                 </div>
             </section>
