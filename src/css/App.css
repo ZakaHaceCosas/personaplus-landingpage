@@ -159,7 +159,6 @@ section h1 {
 }
 
 .dropdown-content {
-    display: none;
     position: absolute;
     top: 50px;
     right: 0;
