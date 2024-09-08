@@ -1,3 +1,4 @@
+/* Reset stuff */
 * {
     margin: 0;
     padding: 0;
@@ -8,37 +9,21 @@
     color: white;
 }
 
-a,
-button,
-.btn {
-    transition: transform 350ms ease, box-shadow 350ms ease;
-}
-a:hover,
-button:hover,
-.btn:hover {
-    will-change: transform, box-shadow;
-}
-.navLinks a {
-    transition: color 350ms ease, background-color 350ms ease;
-}
-
+/* scrollbar */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 12px;
 }
-
 ::-webkit-scrollbar-track {
-    border-radius: 0px;
     background-color: #00000010;
 }
-
 ::-webkit-scrollbar-thumb {
     background: #32ff80;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background: #22af70;
 }
 
+/* variables */
 :root {
     --Background: rgba(14, 16, 19, 1);
     --Darker: rgba(20, 23, 28, 1);
@@ -50,6 +35,49 @@ button:hover,
     --GODstroke: rgba(25, 128, 64, 1);
     --ACEstroke: rgba(25, 64, 128, 1);
 }
+
+/* button and link styles and transitions */
+a:hover {
+    color: var(--GOD);
+}
+button,
+.btn {
+    transition: transform 350ms ease, box-shadow 350ms ease;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    max-height: 20px;
+    color: white;
+}
+button,
+.btn {
+    padding: 12px 24px;
+}
+button:hover,
+.btn:hover {
+    transform: scale(1.1);
+}
+button:hover,
+.btn:hover {
+    transform: scale(1.1);
+    will-change: transform, box-shadow;
+}
+
+/* specific styles and transitions */
+.navLinks a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: color 350ms ease, background-color 350ms ease;
+}
+.navLinks a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    will-change: background-color, color;
+}
+
 .brandFont {
     font-family: "JetBrains Mono";
 }
@@ -91,15 +119,7 @@ nav .navLinks {
     align-items: center;
 }
 
-nav .navLinks a {
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-nav .navLinks a:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-}
+/* sections */
 
 section {
     display: flex;
@@ -110,16 +130,13 @@ section {
     height: 100vh;
     background-color: var(--Dark);
 }
-section div.imagediv {
-    padding: 50px;
-    align-items: center;
-    justify-content: center;
+
+section:nth-of-type(2),
+section:nth-of-type(4) {
+    flex-direction: row-reverse;
+    background-color: var(--Darker);
 }
-section div.textDiv {
-    padding: 50px;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
+
 section div {
     display: flex;
     flex-direction: column;
@@ -127,6 +144,7 @@ section div {
     flex: 1;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 50px;
 }
 
 section img {
@@ -138,11 +156,7 @@ section img {
 section h1 {
     font-size: xx-large;
 }
-section:nth-of-type(2),
-section:nth-of-type(4) {
-    flex-direction: row-reverse;
-    background-color: var(--Darker);
-}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -218,27 +232,6 @@ picture {
     line-height: 15.5vh;
     color: var(--GOD);
 }
-
-a:hover {
-    color: var(--GOD);
-}
-button,
-.btn {
-    text-align: center;
-    display: flex;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    padding: 12px 24px;
-    text-decoration: none;
-    color: white;
-}
-
-button:hover,
-.btn:hover {
-    transform: scale(1.1);
-}
 .btnBlau {
     background-color: var(--ACE);
     border: 4px solid var(--ACEstroke);
@@ -252,7 +245,6 @@ button:hover,
     border: 4px solid var(--GODstroke);
     color: black;
 }
-
 .btnGran:hover {
     color: black;
     box-shadow: 0px 0px 15px 0px var(--GODstroke);
