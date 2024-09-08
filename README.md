@@ -11,3 +11,7 @@ Powered by Vercel.
 - [ ] Optimise CSS as much as possible.
 - [ ] Fix responsive design (it works, but poorly).
 - [ ] Perhaps replace some text buttons with icons?
+
+### Credits
+
+SVG icons by [Icons8](https://icons8.com)
