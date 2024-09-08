@@ -107,34 +107,10 @@ function Home() {
                     >
                         {t("downloadbtn")}
                     </a>
-                    <a
-                        className="btn btnRot"
-                        href="https://youtube.com/@ZakaHaceCosas"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {t("seeonyt")}
-                    </a>
-                    <a
-                        className="btn btnBlau"
-                        href="https://github.com/ZakaHaceCosas/personaplus"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {t("ghrepo")}
-                    </a>
-                    <a
-                        className="btn btnBlau"
-                        href="https://discord.gg/euVHrr46c6"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {t("disc")}
-                    </a>
                 </div>
                 <p
                     style={{
-                        maxWidth: "50vw",
+                        maxWidth: "40vw",
                         textWrap: "wrap",
                         textAlign: "center",
                         fontSize: "xx-small",

@@ -33,6 +33,38 @@ function Footer() {
                     </p>
                 </div>
             </div>
+            <div className="social-icons">
+                <a
+                    href="https://www.youtube.com/playlist?list=PLdif1flfmG__g_a1QSmBNnSh_6pAeRizW"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/icons8-youtube.svg"
+                        alt="YouTube button"
+                    />
+                </a>
+                <a
+                    href="https://discord.gg/euVHrr46c6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/icons8-discord.svg"
+                        alt="Discord button"
+                    />
+                </a>
+                <a
+                    href="https://github.com/ZakaHaceCosas/personaplus"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/icons8-github.svg"
+                        alt="GitHub button"
+                    />
+                </a>
+            </div>
             <p>
                 {t("opensource")}
                 <a
