@@ -98,7 +98,7 @@ function Footer() {
                     <p>
                         {t("siteInfo.madeBy")}{" "}
                         <a
-                            href="https://bento.me/ZakaHaceCosas"
+                            href="https://zakahacecosas.github.io"
                             rel="noopener noreferrer"
                         >
                             @ZakaHaceCosas

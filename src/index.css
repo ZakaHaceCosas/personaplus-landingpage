@@ -351,6 +351,10 @@ footer .social-icons {
     gap: 20px;
 }
 
+footer .social-icons svg {
+    transition: transform 350ms ease;
+}
+
 footer .social-icons svg:hover {
     will-change: scale;
     transform: scale(1.1);
