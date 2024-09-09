@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./css/App.css";
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
