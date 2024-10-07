@@ -80,41 +80,38 @@ export default function Footer() {
 
     return (
         <footer>
-            <div className="container">
-                <div className="brands">
-                    <div className="footerSection">
-                        <img src="/logoText.png" alt="PersonaPlus logo" />
-                        <p>"{t("giveYourselfAPlus")}"</p>
-                    </div>
-                    <div className="footerSection">
-                        <img
-                            src="/zakahacecosas.png"
-                            alt="ZakaHaceCosas logo"
-                        />
-                        <p>
-                            {t("siteInfo.madeBy")}{" "}
-                            <a
-                                href="https://zakahacecosas.github.io"
-                                rel="noopener noreferrer"
-                            >
-                                @ZakaHaceCosas
-                            </a>
-                            .
-                        </p>
-                    </div>
+            <div className="brands">
+                <div className="footerSection">
+                    <img src="/logoText.png" alt="PersonaPlus logo" />
+                    <p>"{t("giveYourselfAPlus")}"</p>
                 </div>
-                <SocialIcons />
+                <div className="footerSection">
+                    <img src="/zakahacecosas.png" alt="ZakaHaceCosas logo" />
+                    <p>
+                        {t("siteInfo.madeBy")}{" "}
+                        <a
+                            href="https://zakahacecosas.github.io"
+                            rel="noopener noreferrer"
+                        >
+                            @ZakaHaceCosas
+                        </a>
+                        .
+                    </p>
+                </div>
             </div>
-            <p>
-                {t("siteInfo.openSource")}{" "}
-                <a
-                    href="https://github.com/ZakaHaceCosas/personaplus-landingpage"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                >
-                    ZakaHaceCosas/personaplus-landingpage
-                </a>
-            </p>
+            <div className="footerStuff">
+                <SocialIcons />
+                <p>
+                    {t("siteInfo.openSource")}{" "}
+                    <a
+                        href="https://github.com/ZakaHaceCosas/personaplus-landingpage"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        ZakaHaceCosas/personaplus-landingpage
+                    </a>
+                </p>
+            </div>
         </footer>
     );
 }

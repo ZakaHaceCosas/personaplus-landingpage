@@ -127,9 +127,9 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: 2px solid var(--Dark);
+    border-bottom: 4px solid var(--Dark);
     box-shadow: 0px 0px 30px 0px #000;
-    height: 45px;
+    height: 35px;
 }
 
 nav .navLinks {
@@ -222,7 +222,7 @@ img {
 }
 
 #hero img {
-    height: 80%;
+    height: 70%;
     object-fit: scale-down;
 }
 
@@ -242,29 +242,33 @@ img {
 
 footer {
     display: flex;
-    background-color: #000;
-    border-top: 2px solid var(--Dark);
-    box-shadow: 0px 0px 20px 0px #000;
-    max-width: calc(100vw - 80px);
-    gap: 40px;
-    padding: 40px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-footer .container {
-    max-width: calc(100vw - 120px);
-    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    background-color: var(--Darker);
+    border-top: 4px solid var(--Dark);
+    box-shadow: 0px 0px 20px 0px #000;
+    max-width: calc(100vw - 80px);
+    padding: 40px;
+    width: 100%;
+}
+.footerStuff {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footerStuff p {
+    max-width: 55%;
+    text-align: right;
+    font-size: smaller;
+    color: #999;
 }
 
 footer .brands {
     display: flex;
-    width: 100vw;
-    gap: 40px;
+    gap: 20px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -278,7 +282,7 @@ footer .footerSection {
 }
 
 footer .footerSection img {
-    height: 80px;
+    height: 90px;
     object-fit: contain;
 }
 
@@ -302,10 +306,6 @@ footer .footerSection img {
     background-color: transparent;
 }
 
-iframe {
-    border-radius: 20px;
-}
-
 hr {
     width: 100%;
     height: 1px;
@@ -316,19 +316,6 @@ hr {
     height: 50px;
     object-fit: scale-down;
     display: none;
-}
-
-.news {
-    margin-top: 100px;
-    width: 100vw;
-    padding: 10px 0;
-    background-color: var(--GOD);
-    text-align: center;
-}
-
-.news p,
-.news a {
-    color: black;
 }
 
 /* footer */
@@ -408,7 +395,7 @@ footer .social-icons svg:hover path {
         line-height: 4vh;
     }
     #hero img {
-        width: 75%;
+        width: 70%;
         height: auto;
     }
     nav {
