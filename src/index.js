@@ -6,8 +6,13 @@ import reportWebVitals from "./reportWebVitals";
 import { sendToVercelAnalytics } from "./vitals";
 import "./utils/i18n";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const container = document.getElementById("root");
 
-root.render(<App />);
+if (container) {
+    const root = ReactDOM.createRoot(container);
+    root.render(<App />);
 
-reportWebVitals(sendToVercelAnalytics);
+    reportWebVitals(sendToVercelAnalytics);
+} else {
+    console.error("No root");
+}
