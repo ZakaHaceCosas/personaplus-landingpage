@@ -52,7 +52,7 @@ function Home() {
                     <p>{t("differentblock")}</p>
                     <a
                         href="https://github.com/ZakaHaceCosas/personaplus"
-                        className="btn btnBlau"
+                        className="btn buttonAce"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -71,9 +71,9 @@ function Home() {
                 >
                     {t("downloads.downloadNow")}
                 </p>
-                <div className="stuffactualrow">
+                <div className="actualStuffRow">
                     <a
-                        className="btn btnGran"
+                        className="btn buttonGod"
                         href="https://github.com/ZakaHaceCosas/personaplus/releases/latest"
                         target="_blank"
                         rel="noopener noreferrer"
