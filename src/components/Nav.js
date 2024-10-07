@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import Button from "./Button";
 
-function Nav({ children }) {
+export default function Nav({ children }) {
     const { t } = useTranslation();
     const { i18n } = useTranslation();
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -17,19 +18,19 @@ function Nav({ children }) {
 
     return (
         <nav>
-            <h1 className="brandFont" id="logobig">
+            <h1 className="brandFont" id="bigLogo">
                 PersonaPlus
             </h1>
-            <img src="/logo256.png" id="logosmall" alt="PersonaPlus logo" />
+            <img src="/logo256.png" id="smallLogo" alt="PersonaPlus logo" />
             <div className="navLinks">
                 {children}
                 <div className="dropdown">
-                    <button
-                        className="button btnBlau dropbtn"
-                        onClick={toggleDropdown}
-                    >
-                        {t("navigation.language")}
-                    </button>
+                    <Button
+                        customStyle="ACE"
+                        isDropdown={true}
+                        action={toggleDropdown}
+                        text={t("navigation.language")}
+                    />
                     {dropdownOpen && (
                         <div className="dropdown-content">
                             <a
@@ -53,5 +54,3 @@ function Nav({ children }) {
         </nav>
     );
 }
-
-export default Nav;
