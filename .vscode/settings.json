@@ -3,5 +3,12 @@
     "editor.indentSize": "tabSize",
     "editor.tabSize": 4,
     "prettier.tabWidth": 4,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "landingpage",
+        "noopener",
+        "noreferrer",
+        "personaplus",
+        "zakahacecosas"
+    ]
 }

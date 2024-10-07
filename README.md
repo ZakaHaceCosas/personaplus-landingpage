@@ -1,14 +1,14 @@
 # PersonaPlus Website
 
-Website for the [PersonaPlus](https://github.com/ZakaHaceCosas/personaplus) project, a selfcare app in React Native & Expo.
+Website for the [PersonaPlus](https://github.com/ZakaHaceCosas/personaplus) project, a health & wellbeing app in React Native & Expo.
 
-Powered by Vercel.
+Website powered by Vercel.
 
 ## TODO
 
 - [ ] Add remaining images and content.
-- [ ] Optimise images with `.webp` format.
-- [ ] Optimise CSS as much as possible.
+- [ ] Optimize images with `.webp` format.
+- [ ] Optimize CSS as much as possible.
 - [X] Fix responsive design (it works, but poorly).
 - [ ] Perhaps replace some text buttons with icons?
 
