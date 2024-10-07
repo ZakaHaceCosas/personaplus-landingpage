@@ -75,39 +75,36 @@ function SocialIcons() {
     );
 }
 
-function Footer() {
+export default function Footer() {
     const { t } = useTranslation();
 
     return (
         <footer>
-            <div className="brands">
-                <div className="fsect">
-                    <img
-                        src="/logoText.png"
-                        alt="Logotipo de PersonaPlus"
-                        className="pplogo"
-                    />
-                    <p>"{t("giveYourselfAPlus")}"</p>
+            <div className="container">
+                <div className="brands">
+                    <div className="footerSection">
+                        <img src="/logoText.png" alt="PersonaPlus logo" />
+                        <p>"{t("giveYourselfAPlus")}"</p>
+                    </div>
+                    <div className="footerSection">
+                        <img
+                            src="/zakahacecosas.png"
+                            alt="ZakaHaceCosas logo"
+                        />
+                        <p>
+                            {t("siteInfo.madeBy")}{" "}
+                            <a
+                                href="https://zakahacecosas.github.io"
+                                rel="noopener noreferrer"
+                            >
+                                @ZakaHaceCosas
+                            </a>
+                            .
+                        </p>
+                    </div>
                 </div>
-                <div className="fsect">
-                    <img
-                        src="/zakahacecosas.png"
-                        alt="Logo de ZakaHaceCosas"
-                        className="zlogo"
-                    />
-                    <p>
-                        {t("siteInfo.madeBy")}{" "}
-                        <a
-                            href="https://zakahacecosas.github.io"
-                            rel="noopener noreferrer"
-                        >
-                            @ZakaHaceCosas
-                        </a>
-                        .
-                    </p>
-                </div>
+                <SocialIcons />
             </div>
-            <SocialIcons />
             <p>
                 {t("siteInfo.openSource")}{" "}
                 <a
@@ -121,5 +118,3 @@ function Footer() {
         </footer>
     );
 }
-
-export default Footer;
