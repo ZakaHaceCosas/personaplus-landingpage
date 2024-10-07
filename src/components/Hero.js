@@ -11,18 +11,14 @@ function Hero() {
                 <br />
                 <span>PLUS</span>
             </h1>
-            <picture>
-                <source
-                    srcSet="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/mockup_main.webp"
-                    type="image/webp"
-                />
-                <img
-                    src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/mockup_main.png"
-                    alt="PersonaPlus Brand Mockup, showing one Android device with PersonaPlus' main page open."
-                />
-            </picture>
+            <img
+                loading="lazy"
+                src="https://raw.githubusercontent.com/ZakaHaceCosas/personaplus-landingpage/main/static/mockup_main.webp"
+                type="image/webp"
+                alt="PersonaPlus Brand Mockup, showing one Android device with PersonaPlus' main page open."
+            />
         </div>
     );
 }
 
-export default Hero;
+export default React.memo(Hero);
