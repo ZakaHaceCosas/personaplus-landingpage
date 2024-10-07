@@ -39,7 +39,12 @@
 }
 
 /* button and link styles and transitions */
+a {
+    transition: color 350ms ease;
+}
+
 a:hover {
+    will-change: color;
     color: var(--GOD);
 }
 
@@ -336,7 +341,12 @@ footer .social-icons svg:hover {
     transform: scale(1.1);
 }
 
+footer .social-icons svg path {
+    transition: fill 350ms ease;
+}
+
 footer .social-icons svg:hover path {
+    will-change: fill;
     fill: var(--GOD);
 }
 
