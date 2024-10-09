@@ -1,3 +1,6 @@
+> [!CAUTION]
+> [migrated from React to Astro, use this repo instead](https://github.com/ZakaHaceCosas/personaplus/website)
+
 # PersonaPlus Website
 
 Website for the [PersonaPlus](https://github.com/ZakaHaceCosas/personaplus) project, a health & wellbeing app in React Native & Expo.
